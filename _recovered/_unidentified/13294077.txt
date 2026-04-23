@@ -1,3 +1,0 @@
-.c-page-updated-date {
-    text-align: right;
-}
