@@ -1,0 +1,94 @@
+@use "../abstracts/index" as *;
+
+.section-certification-logos {
+	padding: $space-96 $space-64 0;
+
+	&__card {
+		max-width: 760px;
+		margin: 0 auto;
+		padding: $space-32;
+		border-radius: 16px;
+		background: #ffffff;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+	}
+
+	&__intro {
+		margin: 0 0 $space-24;
+		font-size: 0.75rem;
+		line-height: 1.4;
+		text-align: center;
+		color: $color-text;
+	}
+
+	&__grid {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		align-items: center;
+	}
+
+	&__item {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 0;
+		padding: 0 $space-24;
+
+		&:not(:last-child)::after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			right: 0;
+			width: 1px;
+			height: 72px;
+			background: #cfcfcf;
+			transform: translateY(-50%);
+		}
+	}
+
+	&__link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__image {
+		display: block;
+		max-width: 100%;
+		width: auto;
+		height: auto;
+		max-height: 72px;
+		object-fit: contain;
+	}
+}
+
+@media (max-width: $break-mobile) {
+	.section-certification-logos {
+		padding: $space-32 0 $space-48;
+
+		&__card {
+			padding: $space-24;
+		}
+
+		&__intro {
+			margin-bottom: $space-20;
+		}
+
+		&__grid {
+			grid-template-columns: 1fr;
+			gap: $space-20;
+		}
+
+		&__item {
+			padding: 0;
+
+			&:not(:last-child)::after {
+				display: none;
+			}
+		}
+
+		&__image {
+			max-height: 60px;
+		}
+	}
+}

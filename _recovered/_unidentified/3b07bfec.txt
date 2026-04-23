@@ -1,0 +1,240 @@
+{
+    "wpdg_export_version": "1.0",
+    "name": "Default Questionnaire",
+    "intro_message": "Avalie os seus hábitos de jogo, esteja atento aos sinais de risco e siga as nossas Recomendações de Jogo Responsável. Refletindo sobre a sua relação com o jogo a dinheiro ao longo dos últimos 12 meses, responda ao seguinte questionário:",
+    "questions": [
+        {
+            "id": "q1",
+            "label": "Qual o meu género?",
+            "type": "choice",
+            "weight": 0,
+            "export_as": "label",
+            "choices": [
+                {
+                    "label": "Feminino",
+                    "value": 0
+                },
+                {
+                    "label": "Masculino",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "label": "Qual a minha idade?",
+            "type": "choice",
+            "weight": 0,
+            "export_as": "label",
+            "choices": [
+                {
+                    "label": "18\/24",
+                    "value": 0
+                },
+                {
+                    "label": "25\/34",
+                    "value": 1
+                },
+                {
+                    "label": "35\/44",
+                    "value": 2
+                },
+                {
+                    "label": "45\/54",
+                    "value": 3
+                },
+                {
+                    "label": "54\/65",
+                    "value": 4
+                },
+                {
+                    "label": "+65",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "label": "Tenho necessidade de jogar quantias mais elevadas de dinheiro para me divertir.",
+            "type": "choice",
+            "weight": 1,
+            "export_as": "yes_no",
+            "choices": [
+                {
+                    "label": "Não",
+                    "value": 0
+                },
+                {
+                    "label": "Sim",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "label": "Sempre que penso na possibilidade de parar de jogar sinto-me inquieto(a)\/irritado(a).",
+            "type": "choice",
+            "weight": 1,
+            "export_as": "yes_no",
+            "choices": [
+                {
+                    "label": "Não",
+                    "value": 0
+                },
+                {
+                    "label": "Sim",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "label": "Já fiz várias tentativas, sem sucesso, para controlar, reduzir ou parar de jogar.",
+            "type": "choice",
+            "weight": 1,
+            "export_as": "yes_no",
+            "choices": [
+                {
+                    "label": "Não",
+                    "value": 0
+                },
+                {
+                    "label": "Sim",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "label": "Penso frequentemente em situações de jogo (ex: recordo jogadas anteriores, planeio jogadas futuras, planeio formas de obter dinheiro para jogar, imagino o que fazer com os prémios).",
+            "type": "choice",
+            "weight": 1,
+            "export_as": "yes_no",
+            "choices": [
+                {
+                    "label": "Não",
+                    "value": 0
+                },
+                {
+                    "label": "Sim",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "label": "Jogo muitas vezes quando me sinto deprimido(a), preocupado(a), angustiado(a), ou ansioso(a).",
+            "type": "choice",
+            "weight": 1,
+            "export_as": "yes_no",
+            "choices": [
+                {
+                    "label": "Não",
+                    "value": 0
+                },
+                {
+                    "label": "Sim",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "label": "Jogo frequentemente para tentar recuperar o dinheiro perdido em anteriores experiências de jogo.",
+            "type": "choice",
+            "weight": 1,
+            "export_as": "yes_no",
+            "choices": [
+                {
+                    "label": "Não",
+                    "value": 0
+                },
+                {
+                    "label": "Sim",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "label": "Evito dar a entender a outras pessoas o meu nível de envolvimento com o jogo (o tempo e\/ou o dinheiro que gasto no jogo).",
+            "type": "choice",
+            "weight": 1,
+            "export_as": "yes_no",
+            "choices": [
+                {
+                    "label": "Não",
+                    "value": 0
+                },
+                {
+                    "label": "Sim",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "label": "Sinto que já me prejudiquei a nível pessoal e profissional devido à minha relação com o jogo.",
+            "type": "choice",
+            "weight": 1,
+            "export_as": "yes_no",
+            "choices": [
+                {
+                    "label": "Não",
+                    "value": 0
+                },
+                {
+                    "label": "Sim",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "label": "Já tive de recorrer a dinheiro emprestado para pagar dívidas de jogo ou para continuar a jogar.",
+            "type": "choice",
+            "weight": 1,
+            "export_as": "yes_no",
+            "choices": [
+                {
+                    "label": "Não",
+                    "value": 0
+                },
+                {
+                    "label": "Sim",
+                    "value": 1
+                }
+            ]
+        }
+    ],
+    "ranges": [],
+    "feedback": [
+        {
+            "min_yes": 0,
+            "max_yes": 3,
+            "message": "Parabéns, é um apostador responsável! As suas respostas indicam que tem hábitos de jogo saudáveis e que joga de forma lúdica e como entretenimento."
+        },
+        {
+            "min_yes": 4,
+            "max_yes": 5,
+            "message": "É melhor prevenir! Siga as nossas recomendações de Jogo Responsável, de forma a prevenir hábitos de jogo prejudiciais ao seu bem-estar."
+        },
+        {
+            "min_yes": 6,
+            "max_yes": 7,
+            "message": "Esteja atento! Siga as nossas recomendações de Jogo Responsável, e pondere contactar a Linha de Apoio JOGO RESPONSÁVEL, um serviço de apoio psicológico, independente, anónimo e confidencial."
+        },
+        {
+            "min_yes": 8,
+            "max_yes": 999,
+            "message": "Alerta! As suas respostas indicam que é um apostador com hábitos de jogo de risco elevado. Para além de dever seguir as nossas recomendações de Jogo Responsável, recomendamos-lhe fortemente que contacte a Linha de Apoio JOGO RESPONSÁVEL, um serviço de apoio psicológico, independente, anónimo e confidencial."
+        }
+    ],
+    "strings": {
+        "question_of": "Pergunta {current} de {total}",
+        "back": "Voltar",
+        "next": "Seguinte",
+        "submit": "Submeter",
+        "submitting": "A enviar…"
+    }
+}

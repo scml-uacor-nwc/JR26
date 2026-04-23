@@ -1,0 +1,254 @@
+# WordPress HTML Debugger - .gitignore
+# ===========================================
+
+# WordPress specific
+# -------------------
+wp-config.php
+wp-config-local.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/debug.log
+error_log
+.htaccess
+
+# Plugin specific
+# ---------------
+wp-content/uploads/wp-html-debugger/
+*.log
+
+# Project documentation (internal)
+# ---------------------------------
+ROADMAP.md
+PROJECT/
+
+# Dependencies
+# ------------
+node_modules/
+vendor/
+bower_components/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Build artifacts
+# ---------------
+/build/
+*.min.js
+*.min.css
+*.map
+
+# AI Tools & Assistants
+# ----------------------
+.claude/
+.claude-chat/
+.cursor/
+.copilot/
+.codeium/
+.tabnine/
+.kite/
+*.ai-session
+*.ai-history
+claude-*
+cursor-*
+copilot-*
+
+# Editors & IDEs
+# --------------
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PhpStorm/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.sublime-settings
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# Eclipse
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Operating Systems
+# -----------------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Environment & Config
+# --------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.envrc
+
+# Logs
+# ----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+# -------------
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage & Testing
+# ------------------
+coverage/
+.nyc_output/
+.coverage
+.pytest_cache/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Temporary files
+# ---------------
+*.tmp
+*.temp
+.temp/
+.tmp/
+.cache/
+.sass-cache/
+
+# Database
+# --------
+*.sql
+*.sqlite
+*.db
+
+
+# Backup files
+# ------------
+*.backup
+*.bak
+*.orig
+*.rej
+*~
+*.swp
+*.swo
+
+# Archives
+# --------
+*.tar.gz
+*.rar
+*.7z
+*.zip
+
+# Plugin distribution builds
+# ---------------------------
+dist/*.zip
+
+# Security
+# --------
+*.pem
+*.key
+*.cert
+*.crt
+id_rsa
+id_rsa.pub
+.ssh/
+secrets.json
+credentials.json
+
+# Local development
+# -----------------
+.local/
+local/
+dev/
+development/
+staging/
+test/
+
+# WordPress Plugin specific
+# --------------------------
+# Exclude any user-uploaded HTML captures during development
+assets/uploads/
+captures/
+debug/
+
+# Misc
+# ----
+.git/
+.gitmodules
+.gitattributes
+*.orig
+*.patch
+*.diff
+*.lock

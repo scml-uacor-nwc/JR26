@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400 800;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url('roboto.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300 500;
+    font-display: swap;
+    src: url('roboto-condensed.woff2') format('woff2');
+}
