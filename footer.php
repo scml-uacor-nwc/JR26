@@ -28,8 +28,7 @@ declare(strict_types=1);
 				<img
 					src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo_LRE_vermelho negativo.png'); ?>"
 					alt="Livro de Reclamações"
-					width="150px"
-					height="auto"
+					width="150"
 				>
 			</a>
 		</div>
