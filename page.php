@@ -50,21 +50,4 @@ if (have_posts()) :
 	endwhile;
 endif;
 
-// Add 'Actualizado em' date after the content
-if (get_the_modified_time('U') !== get_the_time('U')) {
-	?>
-	<div class="c-page-updated-date">
-		<div class="o-container">
-			<p style="font-size: 14px; color: #525252;">
-				<?php
-				printf(
-					esc_html__('Actualizado em: %s', 'jr26'),
-					esc_html(get_the_modified_date())
-				);
-				?>
-			</p>
-		</div>
-	</div>
-	<?php
-}
 get_footer();
